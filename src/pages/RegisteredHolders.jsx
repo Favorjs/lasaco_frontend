@@ -63,7 +63,7 @@
 //     try {
 //       setLoading(true);
 //       const response = await fetch(
-//         `https://e-voting-backeknd-production-077c.up.railway.app/api/registered-users?page=${pagination.page}&pageSize=${pagination.pageSize}&sortBy=${sortConfig.key}&sortOrder=${sortConfig.direction}&search=${searchTerm}`
+//         `https://e-voting-backeknd-production.up.railway.app/api/registered-users?page=${pagination.page}&pageSize=${pagination.pageSize}&sortBy=${sortConfig.key}&sortOrder=${sortConfig.direction}&search=${searchTerm}`
 //       );
 //       if (!response.ok) {
 //         throw new Error('Failed to fetch users');
@@ -369,7 +369,7 @@ const RegisteredHolders = () => {
         : 'registered-guests';
       
       const response = await fetch(
-        `https://e-voting-backeknd-production-077c.up.railway.app/api/${endpoint}?page=${pagination.page}&pageSize=${pagination.pageSize}&sortBy=${sortConfig.key}&sortOrder=${sortConfig.direction}&search=${searchTerm}`,
+        `https://e-voting-backeknd-production.up.railway.app/api/${endpoint}?page=${pagination.page}&pageSize=${pagination.pageSize}&sortBy=${sortConfig.key}&sortOrder=${sortConfig.direction}&search=${searchTerm}`,
         {
           headers: {
             'Content-Type': 'application/json',
