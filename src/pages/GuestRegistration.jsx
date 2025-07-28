@@ -129,6 +129,7 @@ const GuestRegistration = ({ setGuestData }) => {
               <option value="regulator">Regulator</option>
               <option value="press">Press</option>
               <option value="observer">Observer</option>
+              <option value="auditor">Auditor</option>
             </select>
           </div>
           
