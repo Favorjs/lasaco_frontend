@@ -188,7 +188,7 @@ if (editedEmail && !emailRegex.test(editedEmail)) {
               variants={containerVariants}
             >
               <motion.form onSubmit={handleSearch} variants={itemVariants}>
-                <motion.h2 variants={itemVariants}>MUTUAL BENEFITS ASSURANCE PLC AGM REGISTRATION</motion.h2>
+                <motion.h2 variants={itemVariants}>RED STAR EXPRESS PLC AGM REGISTRATION</motion.h2>
                 <motion.p className="form-description" variants={itemVariants}>
                   Search by name, CHN or Registrars account number
                 </motion.p>
