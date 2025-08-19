@@ -7,7 +7,7 @@ const GuestRegistration = ({ setGuestData }) => {
     name: '',
     email: '',
     phone: '',
-    userType: 'guest'
+    userType: 'observer'
   });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');

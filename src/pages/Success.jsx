@@ -103,7 +103,7 @@ const Success = ({ shareholderData, onBackToHome }) => {
 
          <motion.div className="next-steps">
           <h4>What's Next?</h4>
-          <p>You'll receive a Zoom invitation with the meeting details and voting schedule. Results will be shared in real time as you vote. </p>
+          <p>You will recieve a zoom meeting link in your mail to join the meeting as a shareholder </p>
       </motion.div>
  <motion.button 
           onClick={() => onBackToHome()}
