@@ -45,7 +45,7 @@ const UserTypeSelection = () => {
                 onChange={() => setUserType('shareholder')}
               />
               <span>Shareholder</span>
-              <p className="description">I own shares in RED STAR EXPRESS PLC</p>
+              <p className="description">I own shares in LASACO ASSURANCE PLC</p>
             </label>
             
             <label>
@@ -57,7 +57,7 @@ const UserTypeSelection = () => {
                 onChange={() => setUserType('guest')}
               />
               <span>Guest/Regulator/Observer</span>
-              <p className="description">I'm attending as a guest, regulator, or observer</p>
+              <p className="description">I'm attending as a Guest, Regulator, External Auditor </p>
             </label>
           </div>
           

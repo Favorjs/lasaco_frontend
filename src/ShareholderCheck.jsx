@@ -36,7 +36,8 @@ const ShareholderCheck = ({ setShareholderData }) => {
 
     
     try {
-      const response = await fetch(`https://api.lasaco.apel.com.ng/api/check-shareholder`, {
+      // const API_URL= process.env.REACT_APP_API_URL
+      const response = await fetch(`https://api.lasaco.com.ng/api/check-shareholder`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ searchTerm }),
@@ -105,7 +106,7 @@ if (editedEmail && !emailRegex.test(editedEmail)) {
         phone_number: updatedShareholder.phone_number,
         chn: updatedShareholder.chn,
       });
-      const response = await fetch('https://api.lasaco.apel.com.ng/api/send-confirmation', {
+      const response = await fetch('https://api.lasaco.com.ng/api/send-confirmation', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
