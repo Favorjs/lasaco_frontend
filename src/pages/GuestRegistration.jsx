@@ -46,7 +46,7 @@ const GuestRegistration = ({ setGuestData }) => {
     try {
       // Here you would typically send the data to your backend
       // For now, we'll just log it and navigate to a success page
-      const response = await fetch('https://api.lasaco.com.ng/api/register-guest', {
+      const response = await fetch('https://api.lasaco.apel.com.ng/api/register-guest', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
