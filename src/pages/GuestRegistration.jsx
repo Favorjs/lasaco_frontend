@@ -77,7 +77,7 @@ const GuestRegistration = ({ setGuestData }) => {
     >
       <div className="guest-registration-card">
         <h2>Guest Registration</h2>
-        <p>Please fill in your details to register for the AGM</p>
+        <p>Please fill in your details to register for the EGM</p>
         
         {error && <p className="error-message">{error}</p>}
         
