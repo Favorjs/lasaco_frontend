@@ -189,12 +189,12 @@ if (editedEmail && !emailRegex.test(editedEmail)) {
               variants={containerVariants}
             >
               <motion.form onSubmit={handleSearch} variants={itemVariants}>
-                <motion.h2 variants={itemVariants}>LASACO ASSURANCE PLC AGM REGISTRATION</motion.h2>
+                <motion.h2 variants={itemVariants}>LASACO ASSURANCE PLC EGM REGISTRATION</motion.h2>
                 <motion.p className="form-description" variants={itemVariants}>
                   Search by name, CHN or Registrars account number
                 </motion.p>
  <motion.p className="form-description" variants={itemVariants}  style={{ color: 'red' }} >
-                  Kindly note that you need to register and have a valid email or phone number to be able to attend the AGM
+                  Kindly note that you need to register and have a valid email or phone number to be able to attend the EGM
                 </motion.p>
                 <motion.div className="form-group" variants={itemVariants}>
                   <div className="input-with-icon">
